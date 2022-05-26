@@ -20,14 +20,19 @@ class CarHistory:
     def get_info(self) -> dict[str, Any]:
         return self.info
         
+    def _info_to_json(self):
+        return json.dumps(self.info)    
+        
     def get_car_history(self) -> None:
         try:
             self._get_content()
         except Exception as error:
-            print(error) 
+            print("Error in scraper", error) 
         self._scrap_basic_info()
         self._scrap_tech_data()
         self._scrap_history_table()
+        self.to_json()
+        return self._info_to_json()
         
         
     def _get_content(self) -> None:
@@ -42,9 +47,9 @@ class CarHistory:
             'javax.faces.ViewState': "-8249950652064489689:7429482080796207134"
         }
         
-        response = requests.post(url=self.BASE_URL, data=payload)
-        soup = BeautifulSoup(response, 'html.parser')    
-        # soup = BeautifulSoup(open('index.html'), 'html.parser')
+        # response = requests.post(url=self.BASE_URL, data=payload)
+        # soup = BeautifulSoup(response, 'html.parser')    
+        soup = BeautifulSoup(open('index.html'), 'html.parser')
         self.soup = soup
     
     def _scrap_basic_info(self) -> None:

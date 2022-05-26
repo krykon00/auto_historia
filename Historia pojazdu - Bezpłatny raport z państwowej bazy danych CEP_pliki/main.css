@@ -1,0 +1,324 @@
+/*
+    Created on : Aug 24, 2014, 8:48:26 PM
+    Author     : Mariusz Foltak <mariusz.foltak@coi.gov.pl>
+*/
+
+.komunikat {
+    border-left: 3px;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    margin-left: 50px;
+    padding: 6px 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.info {
+    background-color: #dcfff5;
+    border: 1px solid #36b47d;
+    color: #36b47d;
+}
+
+.error {
+    background-color: #efdcda;
+    border: 1px solid #ff463d;
+    color: #ff463d;
+}
+
+.linkWyloguj{
+    margin: 1.5em 0;
+    font-size: 14px;
+    margin-left: 900px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+table.table-ryzyka {
+    border-top: 1px solid #ccc;
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+table.table-ryzyka tr {
+    border-bottom: 1px solid #ccc;
+}
+
+table.table-ryzyka tr th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+table.table-ryzyka tr th:nth-child(2) * {
+    margin-top: 4px;
+}
+
+table.table-ryzyka tr th:first-child {
+    width: 30%;
+}
+
+table.table-ryzyka tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.high-contrast table.table-ryzyka tr:nth-child(even) {
+    background-color: #000000;
+}
+
+table.dane-techniczne tr th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.high-contrast table#tableDaneZagra tr:nth-child(even) {
+    background-color: #000000;
+}
+
+.tekstDaneZagraniczne {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    font-size: 1.8em;
+    line-height: 2em;
+    margin: 1.5em 0;
+    padding: 0 1em;
+}
+
+.high-contrast .tekstDaneZagraniczne {
+    background-color: #000000;
+}
+
+body.high-contrast .tekstDaneZagraniczne {
+    background-color: black !important;
+    font-weight: bold;
+    font-size: 1.8em;
+    line-height: 2em;
+    margin: 1.5em 0;
+}
+
+body.high-contrast table#tableDaneZagra tr:nth-child(even) {
+    background-color: black !important;
+}
+
+
+body.high-contrast table#table-ryzyka tr:nth-child(even) {
+    background-color: black !important;
+}
+
+body.high-contrast .komunikat2 {
+    background-color: #000 !important;
+    border: 1px solid white !important;
+}
+
+body.high-contrast table#timeline tr td * {
+    color: #FFF !important;
+}
+
+body.high-contrast .komunikat2 div {
+    color: yellow !important;
+}
+
+body.high-contrast .komunikat3 {
+    background-color: #000 !important;
+    border: 1px solid white !important;
+}
+
+body.high-contrast .komunikat3 div {
+    color: yellow !important;
+}
+
+.komunikatNieZnalezionoWCep {
+    background-color: #406fb3;
+    color: #FFF;
+    display: flex;
+}
+
+.komunikatNieZnalezionoWCep div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    padding: 5px;
+}
+
+.komunikat3 {
+    background-color: #406fb3;
+    color: #FFF;
+    display: flex;
+}
+
+.komunikat3 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    padding: 5px;
+}
+
+/*background-color: #406fb3;*/
+.komunikat2 {
+    background-color: #406FB3;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+.nieZnalezionoHistoriObrazek {
+    width: 5%;
+}
+
+.nieZnalezionoHistori {
+    width: 95%;
+}
+
+#nawigator .btn, #nawigator-dane-zagraniczne .btn {
+    border:1px solid  #3c7ed8;
+    background: linear-gradient(to bottom, #5c839a 0%, #3c7ed8 100%);
+    border-radius: 0px;
+    color: white;
+}
+
+body.high-contrast #nawigator .btn, body.high-contrast #nawigator-dane-zagraniczne .btn {
+    color: yellow !important;
+}
+
+#nawigator .btn:first-child, #nawigator-dane-zagraniczne .btn:first-child {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+#nawigator .btn:last-child, #nawigator-dane-zagraniczne .btn:last-child {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#nawigator .btn.state-active, #nawigator-dane-zagraniczne .btn.state-active {
+    background: linear-gradient(to bottom, #5e789a 0%, #5b5e86 100%);
+    border: 1px solid #5b5e86;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.footer {
+    font-size: .750em;
+    line-height: 1.2em;
+    margin-left: 270px;
+    font-style: italic;
+    color: #000;
+    text-align: justify;
+}
+
+.os-czasu-cofniety-licznik {
+    float: left;
+    padding-right: 5px;
+}
+
+.link-dane-zagraniczne {
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-block;
+}
+
+.high-contrast .link-dane-zagraniczne {
+    background-color: #000;
+}
+
+.link-dane-zagraniczne a {
+    display: block;
+    margin: 10px;
+}
+
+.btnNapisPokazCar {
+    margin: 20px 0 0 0;
+}
+
+.carfax-icon {
+    display: inline;
+    vertical-align: middle;
+    height: 50px;
+    padding-left: 0;
+    margin-top: -5px;
+}
+
+.autodna-icon {
+    display: inline;
+    vertical-align: top;
+    height: 15px;
+    padding-left: 5px;
+}
+
+.high-contrast .autodna-icon {
+    display: none;
+}
+
+.autodna-high-contrast-icon {
+    display: none;
+    vertical-align: top;
+    height: 15px;
+    padding-left: 5px;
+}
+
+.high-contrast .autodna-high-contrast-icon {
+    display: inline;
+}
+
+main .nav-raport-dane-zagraniczne {
+    padding-left: 40px;
+    position: relative;
+    top: -17px;
+    padding-bottom: 1px;
+}
+
+main .nav-raport-dane-zagraniczne .btn {
+    display: block;
+    float: left;
+    min-width: 130px;
+}
+
+main .nav-raport-dane-zagraniczne .btn.corner-left {
+    border-radius: 5px 0 0 5px;
+}
+
+main .nav-raport-dane-zagraniczne .btn.corner-right {
+    border-radius: 0 5px 5px 0;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        line-height: 1.2em;
+        font-style: italic;
+        color: #000;
+        text-align: justify;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    #nawigator .btn:first-child, #nawigator-dane-zagraniczne .btn:first-child {
+        border-radius: 0px;
+    }
+
+    #nawigator .btn:last-child, #nawigator-dane-zagraniczne .btn:last-child {
+        border-radius: 0px;
+    }
+
+    main .nav-raport-dane-zagraniczne {
+        padding-left: 0; top: -14px;
+    }
+}
+
+@media only screen and ( max-width: 479px) {
+    main .nav-raport-dane-zagraniczne {
+        top: -13px;
+    }
+    main .nav-raport-dane-zagraniczne .btn {
+        float: none
+    }
+}

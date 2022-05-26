@@ -1,5 +1,3 @@
-"""Config file for Flask API"""
-
+"""Config for API"""
 class Config:
     DEBUG = True
-    

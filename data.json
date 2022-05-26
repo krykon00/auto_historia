@@ -1,0 +1,63 @@
+{
+    "Dane podstawowe": {
+        "name": "SEAT",
+        "typ": "SAMOCHÓD OSOBOWY",
+        "engine": "1395 cm³",
+        "year": "2017 ",
+        "vin": "VSSZZZ5FZJR048745 ",
+        "oc": "aktualna ",
+        "tech": "aktualne ",
+        "km": "62 650 km ",
+        "status": "Zarejestrowany "
+    },
+    "Dane techniczne ": {
+        "Pojemność silnika": "1395 cm³",
+        "Moc silnika": "92 kW",
+        "Paliwo": "benzyna",
+        "Emisja CO₂": "120 g/km",
+        "Średnie zużycie paliwa na 100km": "5 l",
+        "Liczba miejsc ogółem": "5",
+        "Liczba miejsc siedzących": "5",
+        "Masa własna pojazdu": "1182 kg",
+        "Maks. masa całkowita ciągniętej przyczepy z hamulcem": "1400 kg",
+        "Maks. masa całkowita ciągniętej przyczepy bez hamulca": "620 kg",
+        "Dopuszczalna masa całkowita": "1830 kg",
+        "Liczba osi": "2",
+        "Rozstaw osi": "2620 mm",
+        "Rozstaw kół (średni)": "1518 mm"
+    },
+    "Dokumenty ": {
+        "Data wydania aktualnego dokumentu": "21.02.2022",
+        "Typ dokumentu": "Dowód rejestracyjny",
+        "Stan dokumentu": "Odebrany przez właściciela/﻿posiadacza pojazdu",
+        "Data wydania karty pojazdu": "05.10.2017",
+        "Numer": "e9*2007/46*0094*24",
+        "Kategoria": "M1",
+        "Wersja": "FM6SFM6AJ0157MMVL0561",
+        "Wariant": "FCZCAX0V",
+        "Typ": "5F"
+    },
+    "Oś czasu": {
+        "23.11.2017": {
+            "info": "Pierwszy właściciel w Polsce (pozostał właścicielem do 15.02.2022)",
+            "Właściciel": "firma lub organizacja",
+            "Województwo, w którym pojazd zarejestrowano": "mazowieckie"
+        },
+        "30.11.2017": {
+            "info": "Pierwsza rejestracja w Polsce",
+            "Termin następnego badania technicznego": "29.11.2020"
+        },
+        "26.11.2020": {
+            "info": "Okresowe badanie techniczne (ważne do 26.11.2022)",
+            "Wynik badania": "pozytywny",
+            "Numer SKP": "WND/015",
+            "Odczytany stan drogomierza": "62 650 km",
+            "(Uwaga. Stan drogomierza przy badaniu technicznym gromadzimy od 2014)": null
+        },
+        "15.02.2022": {
+            "info": "Zmiana właściciela",
+            "Właściciel": "osoba fizyczna",
+            "Województwo, w którym pojazd zarejestrowano": "lubelskie"
+        }
+    }
+}
